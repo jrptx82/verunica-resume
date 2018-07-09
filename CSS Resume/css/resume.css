@@ -1,0 +1,140 @@
+/* Global Styles
+---------------------------*/
+/* Border Box Fix */
+
+html {
+	box-sizing: border-box;
+}
+*,*:before,*:after {
+	box-sizing: inherit;
+}
+body {
+	font-family: 'Hind Madurai', sans-serif;
+	margin: 0;
+}
+
+h1, h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+h1 { font-size: 50px;
+}
+
+h2 { font-size: 30px;
+		margin-top: 0;
+}
+h3 {
+	margin: 0;
+}
+a {
+	color:#ef233c;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+.uppercase {
+	text-transform:uppercase;
+}
+
+.content-wrap {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow:auto;
+	}
+
+.col-narrow {
+	width:30%;
+	float:left;
+
+}
+.col-wide {
+	width:70%;
+	float:left;
+	padding-left: 20px;
+
+}
+
+/* Header and Footer
+---------------------------*/
+header, footer {
+	background-color: #2B2D42;
+	color: #8D99AE;
+}
+
+/* header styles */
+
+/* header */
+
+.profile-img {
+	border-radius:50%;
+}
+
+header h1, header h2 {
+	color:#EDF2F4;
+	margin: 0;
+
+}
+
+header h1 {
+	text-decoration:underline;
+}
+
+/* Footer Styles */
+
+footer {
+	text-align: center;
+}
+
+.contact-info a {
+	background-color: white;
+	padding: 10px;
+	display: inline-block;
+	margin: 0 auto;
+}
+/* Work Experience
+---------------------------*/
+.work {
+	background-color: #edf2f4;
+}
+h3 ~ p {
+	margin: 0;
+}
+.job-description {
+	margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+	margin: 0;
+}
+/* Education
+---------------------------*/
+
+.education {
+	background-color: #8d99ae;
+}
+
+p + h3 {
+	margin-top: 30px;
+}
+
+
+/*  Centering
+
+.content-wrap {
+	max-width: 950px;
+	margin: 0 auto;
+	}
+
+	*/
+
+
+/* Color Palette
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+*/
